@@ -1,4 +1,14 @@
 /* Your own custom styles should be here */
+
 .col-2 {
   text-align: center;
+}
+
+.styled ul > li {
+  text-indent: -5px;
+  font-size: 1rem;
+}
+.styled ul > li:before {
+  content: '-';
+  text-indent: -5px;
 }
